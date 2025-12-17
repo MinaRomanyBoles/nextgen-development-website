@@ -1,16 +1,95 @@
-# React + Vite
+# Nextgen Development Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, high-performance real estate development website built with **React** and **Vite**. This project showcases Nextgen Development's portfolio, services, and team with a focus on user experience, responsiveness, and bilingual support (English & Arabic).
 
-Currently, two official plugins are available:
+![Project Banner](public/assets/images/cover_background2.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+- **Modern & Responsive UI**: Fully responsive design that works seamlessly across desktops, tablets, and mobile devices.
+- **Bilingual Support (i18n)**: Complete Arabic and English translations with tailored layouts (RTL/LTR support).
+- **Dynamic Project Portfolio**: Browse projects with filtering capabilities (Residential, Commercial, Mixed-use).
+- **Interactive Details**: Dedicated project pages with image galleries, specifications, and amenity lists.
+- **Animated Interactions**: Smooth scroll animations and interactive elements for an engaging user experience.
+- **Theme Support**: Built-in support for Light and Dark modes.
+- **Contact Integration**: Functional contact forms and embedded Google Maps for location finding.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
 
-## Expanding the ESLint configuration
+- **Framework**: [React](https://react.dev/) (v19)
+- **Build Tool**: [Vite](https://vitejs.dev/)
+- **Routing**: [React Router](https://reactrouter.com/) (v7)
+- **Styling**: Native CSS with Variables & Flexbox/Grid
+- **Linting**: ESLint
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📦 Getting Started
+
+Follow these steps to set up the project locally.
+
+### Prerequisites
+
+- Node.js (v18 or higher)
+- npm (v9 or higher)
+
+### Installation
+
+1.  **Clone the repository**
+    ```bash
+    git clone https://github.com/your-username/nextgen-development-website.git
+    cd nad_web
+    ```
+
+2.  **Install dependencies**
+    ```bash
+    npm install
+    ```
+
+3.  **Run the development server**
+    ```bash
+    npm run dev
+    ```
+    The application will be available at `http://localhost:5173`.
+
+### Building for Production
+
+To create a production-ready build:
+
+```bash
+npm run build
+```
+
+This will generate optimized static assets in the `dist` directory.
+
+## 📂 Project Structure
+
+```
+nad_web/
+├── public/              # Static assets (images, icons, etc.)
+├── src/
+│   ├── components/      # Reusable UI components (Navbar, Footer, etc.)
+│   ├── context/         # React Context (LanguageContext, etc.)
+│   ├── data/            # Static data files (projects.js, team.js)
+│   ├── i18n/            # Translation files
+│   ├── pages/           # Page components (Home, About, Projects, etc.)
+│   ├── App.jsx          # Main application component
+│   └── main.jsx         # Entry point
+├── index.html           # HTML entry point
+├── package.json         # Project dependencies and scripts
+└── vite.config.js       # Vite configuration
+```
+
+## 🤝 Contributing
+
+1.  Fork the repository
+2.  Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3.  Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4.  Push to the branch (`git push origin feature/AmazingFeature`)
+5.  Open a Pull Request
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+**Nextgen Development** - Building Excellence, Creating Communities.
