@@ -9,7 +9,7 @@ export const translations = {
             team: 'Team',
             careers: 'Careers',
             contact: 'Contact',
-            callUs: 'Call us: 16502',
+            callUs: 'Call us: +2 010 80 2999 11',
         },
 
         // Home Page
@@ -140,7 +140,7 @@ export const translations = {
             email: 'Email',
             emailValue: 'nextgenurban@Nextgen-eg.com',
             phone: 'Phone',
-            phoneValue: '(+2)01080299911',
+            phoneValue: '+2 010 80 2999 11',
             officeHours: 'Office Hours',
             officeHoursValue: 'Sunday - Thursday, 9:00 AM - 6:00 PM',
 
@@ -260,7 +260,7 @@ export const translations = {
             team: 'الفريق',
             careers: 'الوظائف',
             contact: 'اتصل بنا',
-            callUs: 'اتصل بنا: 16502',
+            callUs: 'اتصل بنا: +2 010 80 2999 11',
         },
 
         // الصفحة الرئيسية
@@ -391,7 +391,7 @@ export const translations = {
             email: 'البريد الإلكتروني',
             emailValue: 'nextgenurban@Nextgen-eg.com',
             phone: 'الهاتف',
-            phoneValue: '(+2)01080299911',
+            phoneValue: '+2 010 80 2999 11',
             officeHours: 'ساعات العمل',
             officeHoursValue: 'الأحد - الخميس، 9:00 صباحًا - 6:00 مساءً',
 
