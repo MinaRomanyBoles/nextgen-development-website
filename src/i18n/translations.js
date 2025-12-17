@@ -9,7 +9,7 @@ export const translations = {
             team: 'Team',
             careers: 'Careers',
             contact: 'Contact',
-            callUs: 'Call us: +2 010 80 2999 11',
+            callUs: 'Call us now',
         },
 
         // Home Page
@@ -260,7 +260,7 @@ export const translations = {
             team: 'الفريق',
             careers: 'الوظائف',
             contact: 'اتصل بنا',
-            callUs: 'اتصل بنا: +2 010 80 2999 11',
+            callUs: 'اتصل بنا الآن',
         },
 
         // الصفحة الرئيسية
