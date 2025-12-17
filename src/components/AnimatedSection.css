@@ -1,0 +1,62 @@
+.animated-section {
+    opacity: 0;
+    transition: all 0.8s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.animated-section.visible {
+    opacity: 1;
+}
+
+/* Fade Up */
+.animated-section.fade-up {
+    transform: translateY(50px);
+}
+
+.animated-section.fade-up.visible {
+    transform: translateY(0);
+}
+
+/* Fade Down */
+.animated-section.fade-down {
+    transform: translateY(-50px);
+}
+
+.animated-section.fade-down.visible {
+    transform: translateY(0);
+}
+
+/* Fade Left */
+.animated-section.fade-left {
+    transform: translateX(-50px);
+}
+
+.animated-section.fade-left.visible {
+    transform: translateX(0);
+}
+
+/* Fade Right */
+.animated-section.fade-right {
+    transform: translateX(50px);
+}
+
+.animated-section.fade-right.visible {
+    transform: translateX(0);
+}
+
+/* Scale */
+.animated-section.scale {
+    transform: scale(0.9);
+}
+
+.animated-section.scale.visible {
+    transform: scale(1);
+}
+
+/* Simple Fade */
+.animated-section.fade {
+    transform: none;
+}
+
+.animated-section.fade.visible {
+    opacity: 1;
+}
