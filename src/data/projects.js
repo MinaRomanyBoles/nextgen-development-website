@@ -1,7 +1,7 @@
 export const projects = [
     {
         id: 1,
-        title: 'Golden Walk',
+        title: 'Comming Soon 0',
         description: 'Commercial strip in the most iconic place in El sheikh Zayed',
         longDescription: `This exceptional commercial strip represents the pinnacle of business opportunities. 
     Featuring state-of-the-art design, premium finishes, and an array of world-class amenities, 

@@ -27,7 +27,7 @@ const Team = () => {
                     <section className="chairman-section">
                         <div className="chairman-image-wrapper">
                             <div className="chairman-image-placeholder">
-                                <img src="/assets/images/sameh.png" alt="Sameh Shendy" className="chairman-image" />
+                                <img src="/assets/images/sameh.jpeg" alt="Sameh Shendy" className="chairman-image" />
                             </div>
                         </div>
                         <div className="chairman-content">
@@ -52,7 +52,11 @@ const Team = () => {
                     </section>
                 </AnimatedSection>
 
-                <div className="section-divider"></div>
+                <AnimatedSection animation="fade-up">
+                    <div className="team-group-image-container">
+                        <img src="/assets/images/team.jpeg" alt="Nextgen Team" className="team-group-image" />
+                    </div>
+                </AnimatedSection>
 
                 <div className="team-grid">
                     {teamMembers.map((member, index) => (

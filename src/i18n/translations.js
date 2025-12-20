@@ -77,10 +77,10 @@ export const translations = {
             description: 'Building excellence, creating communities, shaping the future',
 
             storyLabel: 'Our Story',
-            storyTitle: '15+ Years of Excellence in Real Estate',
-            storyP1: 'Founded in 2008, Nextgen Development has grown from a visionary startup to one of Egypt\'s most trusted real estate developers. Our journey is marked by a relentless pursuit of excellence and an unwavering commitment to our clients.',
-            storyP2: 'We believe that buildings are more than structures—they are spaces where lives unfold, businesses thrive, and communities flourish. This philosophy drives every project we undertake.',
-            storyP3: 'With over 50 completed projects and thousands of satisfied clients, we continue to set new benchmarks in quality, innovation, and customer satisfaction.',
+            storyTitle: 'Years of Excellence in Real Estate',
+            storyP1: 'A newly established firm founded by a group of partners, each bringing over 20 years of distinguished expertise in their respective fields. Our company synergizes decades of proven leadership and specialized knowledge to deliver innovative, high-impact solutions built on a foundation of professional excellence.',
+            storyP2: '',
+            storyP3: '',
 
             valuesLabel: 'Our Values',
             valuesTitle: 'What We Stand For',
@@ -136,7 +136,7 @@ export const translations = {
             intro: 'Have a question or want to discuss a project? Fill out the form or reach us through any of the channels below.',
 
             address: 'Address',
-            addressValue: 'branch 1 : Address : 11 ,six touristic village , 6th of October - Giza<br />branch 2 : H.O : 428 4th floor Building (4) , Arkan plaza Elsheikh Zayed- Giza',
+            addressValue: 'Property No. 11 - Sixth Tourist Area - Distinguished Neighborhood - 6th of October - Giza Governorate',
             email: 'Email',
             emailValue: 'nextgenurban@Nextgen-eg.com',
             phone: 'Phone',
@@ -267,7 +267,7 @@ export const translations = {
         home: {
             heroTitle1: 'صناعة الإرث',
             heroTitle2: 'إعادة تعريف العقارات',
-            heroDescription: 'تطوير Nextgen يحقق رؤيتك بتصميم مبتكر، بناء عالي الجودة، وتجارب معيشية استثنائية.',
+            heroDescription: 'تطوير نكستجن للتنمية العمرانية يحقق رؤيتك بتصميم مبتكر، بناء عالي الجودة، وتجارب معيشية استثنائية.',
             exploreProjects: 'استكشف المشاريع',
             contactUs: 'اتصل بنا',
 
@@ -283,7 +283,7 @@ export const translations = {
             // نبذة عنا
             aboutLabel: 'من نحن',
             aboutTitle: 'نبني التميز منذ 2008',
-            aboutText: 'كانت شركة Nextgen Development في طليعة الابتكار العقاري في مصر. نجمع بين التصميم المتطور والممارسات المستدامة لخلق مساحات تلهم وتدوم.',
+            aboutText: 'كانت شركة نكستجن للتنمية العمرانية  في طليعة الابتكار العقاري في مصر. نجمع بين التصميم المتطور والممارسات المستدامة لخلق مساحات تلهم وتدوم.',
             learnMore: 'اعرف المزيد',
 
             // المشاريع المميزة
@@ -324,14 +324,14 @@ export const translations = {
 
         // صفحة من نحن
         about: {
-            title: 'عن Nextgen Development',
+            title: 'عن نكستجن للتنمية العمرانية ',
             description: 'بناء التميز، خلق المجتمعات، تشكيل المستقبل',
 
             storyLabel: 'قصتنا',
-            storyTitle: '15+ سنة من التميز في العقارات',
-            storyP1: 'تأسست Nextgen Development في عام 2008، ونمت من شركة ناشئة ذات رؤية إلى واحدة من أكثر مطوري العقارات ثقة في مصر. تميزت رحلتنا بالسعي الدؤوب للتميز والالتزام الثابت بعملائنا.',
-            storyP2: 'نؤمن بأن المباني أكثر من مجرد هياكل - إنها مساحات تتكشف فيها الحياة، وتزدهر الأعمال، وتنمو المجتمعات. هذه الفلسفة تقود كل مشروع نقوم به.',
-            storyP3: 'مع أكثر من 50 مشروعًا مكتملاً وآلاف العملاء الراضين، نواصل وضع معايير جديدة في الجودة والابتكار ورضا العملاء.',
+            storyTitle: 'سنوات من التميز في العقارات',
+            storyP1: 'نحن شركة طموحة تأسست برؤية مشتركة بين نخبة من الشركاء، حيث يتمتع كل فرد منهم بمسيرة مهنية حافلة وخبرة استثنائية تتجاوز الـ 20 عاماً في مجاله التخصصي. يجمع هذا التحالف بين عراقة الخبرة وروح الابتكار، لتقديم حلول احترافية تستند إلى عقود من المعرفة العميقة بمتطلبات السوق.',
+            storyP2: '',
+            storyP3: '',
 
             valuesLabel: 'قيمنا',
             valuesTitle: 'ما نؤمن به',
@@ -362,7 +362,7 @@ export const translations = {
             service3Title: 'الاستشارات الاستثمارية',
             service3Desc: 'استفد من معرفتنا العميقة بالسوق وخبرتنا. نقدم استشارات شاملة للاستثمار العقاري لمساعدتك على اتخاذ قرارات مستنيرة.',
 
-            service4Title: 'Property Management',
+            service4Title: 'إدارة العقارات',
             service4Desc: 'فريقنا المتفاني لإدارة الممتلكات يضمن صيانة استثمارك بشكل جيد وتحقيق عوائد مثلى.',
 
             processLabel: 'عمليتنا',
@@ -387,7 +387,7 @@ export const translations = {
             intro: 'هل لديك سؤال أو تريد مناقشة مشروع؟ املأ النموذج أو تواصل معنا من خلال أي من القنوات أدناه.',
 
             address: 'العنوان',
-            addressValue: 'branch 1 : Address : 11 ,six touristic village , 6th of October - Giza<br />branch 2 : H.O : 428 4th floor Building (4) , Arkan plaza Elsheikh Zayed- Giza',
+            addressValue: 'العقار رقم 11 - السياحية السادسة - الحي المتميز - 6 اكتوبر - محافظة الجيزة',
             email: 'البريد الإلكتروني',
             emailValue: 'nextgenurban@Nextgen-eg.com',
             phone: 'الهاتف',
@@ -407,11 +407,11 @@ export const translations = {
         team: {
             title: 'فريقنا',
             subtitle: 'تعرف على المهنيين المخلصين وراء نجاحنا',
-            mindsBehind: 'العقول وراء Nextgen',
+            mindsBehind: 'العقول وراء نكستجن للتنمية العمرانية',
             chairman: {
                 name: 'سامح شندي',
                 role: 'رئيس مجلس الإدارة',
-                quote: '"رؤيتنا في Nextgen ليست مجرد بناء عقارات، بل صياغة إرث. نؤمن بالتنمية المستدامة التي تثري المجتمعات وتصمد أمام اختبار الزمن."',
+                quote: '"رؤيتنا في نكستجن للتنمية العمرانية ليست مجرد بناء عقارات، بل صياغة إرث. نؤمن بالتنمية المستدامة التي تثري المجتمعات وتصمد أمام اختبار الزمن."',
             },
         },
 
@@ -419,8 +419,8 @@ export const translations = {
         careers: {
             title: 'انضم إلى فريقنا',
             description: 'كن جزءًا من فريق ديناميكي يشكل مستقبل العقارات',
-            whyTitle: 'لماذا العمل في Nextgen؟',
-            whyP1: 'في Nextgen Development، نؤمن بأن أعظم أصولنا هي موظفونا. نعزز ثقافة الابتكار والتعاون والتميز حيث يمكن لكل عضو في الفريق أن يزدهر وينمو.',
+            whyTitle: 'لماذا العمل في نكستجن للتنمية العمرانية؟',
+            whyP1: 'في نكستجن للتنمية العمرانية ، نؤمن بأن أعظم أصولنا هي موظفونا. نعزز ثقافة الابتكار والتعاون والتميز حيث يمكن لكل عضو في الفريق أن يزدهر وينمو.',
             whyP2: 'انضم إلينا في بناء ليس فقط الهياكل، بل المهن التي تحدث فرقًا.',
 
             benefitsLabel: 'المزايا',
@@ -473,7 +473,7 @@ export const translations = {
         // About Page Additional (Arabic)
         aboutTimeline: {
             item1Title: 'تأسيس الشركة',
-            item1Desc: 'تأسيس Nextgen Development في القاهرة',
+            item1Desc: 'تأسيس نكستجن للتنمية العمرانية  في القاهرة',
             item2Title: 'أول مشروع كبير',
             item2Desc: 'إنجاز مجمع سكني بارز',
             item3Title: 'التوسع',

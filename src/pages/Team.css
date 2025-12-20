@@ -240,3 +240,19 @@
     margin: var(--spacing-4xl) 0;
     width: 100%;
 }
+
+/* Team Group Image */
+.team-group-image-container {
+    width: 100%;
+    margin: var(--spacing-4xl) 0;
+    border-radius: var(--radius-2xl);
+    overflow: hidden;
+    box-shadow: var(--shadow-2xl);
+}
+
+.team-group-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: contain;
+}

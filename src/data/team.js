@@ -2,27 +2,27 @@ export const teamMembers = [
     {
         name: 'Sameh Shendy',
         role: 'Chairman',
-        image: '/assets/images/sameh.png',
-        bio: 'Civil Engineer with more than 22 years of experience in the labour market. Mini MPA certified by the American University in Cairo and PMP and IPMA study certificates in 2013/2014. Former Business Manager at the Ministry of Water Resources and Irrigation, Planning Consultant and Engineering Consultant for many private and public institutions in the field of real estate development, general contracting, and investment in construction and building.',
+        image: '/assets/images/sameh.jpeg',
+        bio: 'Established by Eng. Sameh Shendy, a visionary leader with over 25 years of unique experience in the real estate and construction sectors. A Civil Engineer by trade, Eng. Shendy holds a Mini MPA from the American University in Cairo and completed his PMP and IPMA certifications in 2013/2014. Throughout his distinguished career, which includes serving as a former Business Manager at the Ministry of Water Resources and Irrigation, he has successfully delivered notable projects for both public and private sectors across Egypt and the Middle East. As a seasoned Planning and Engineering Consultant, he continues to drive excellence in real estate development, general contracting, and construction investment.',
+    },
+    {
+        name: 'Wael Hassan',
+        role: 'General Counsel',
+        image: '/assets/images/Wael.png',
+        bio: 'A distinguished attorney who is admitted to practice before the appellate court, boasting over ten years of experience. He has provided counsel to numerous international clients engaged in or seeking to enter the Egyptian market. His expertise spans a range of areas, including people management, compliance, corporate, labor, taxes and data privacy, legal writing, review, and advice, as well as commercial and corporate governance. Holds a Bachelor of Law (LLB) from Cairo University, where he specialized in civil, corporate, commercial, and labor law, in addition to a Bachelor of Business Administration (BBA) from the same institution.',
     },
     {
         name: 'Hossam Kamal',
         role: 'Vice Chairman',
         image: '/assets/images/Hossam.png',
-        bio: 'Chartered Accountant, preparing and studying for a Master of Accounting (MPA). Obtained the Egyptian Society of Accountants and Auditors (ESAA) certificate in October 2013. CFO at Taamer for Real Estate Development Company - TOREC DEVELOPMENT owned by the New Urban Communities Authority. Audit manager at KPMG Hazem Hassan and CFO at Mwasalat Misr (Public Transportation Company). Financial Advisor to many public and private companies and entities.',
+        bio: 'Over than 25 years of experiences in the field of accounting, Auditing and Financial Consulting.',
     },
-    {
-        name: 'Ashraf El Masry',
-        role: 'CDO',
-        image: '/assets/images/Ashraf.png',
-        bio: 'Development officer With over 18 years of extensive experience in real estate development, has been a driving force behind some of the most significant projects in the industry. Holding an MBA in Strategic Management, Ashraf brings a unique blend of strategic vision, leadership, and operational excellence to NUD.',
-    },
-    {
-        name: 'Wael Hassan',
-        role: 'Legal consultant',
-        image: '/assets/images/Wael.png',
-        bio: 'A distinguished attorney who is admitted to practice before the appellate court, boasting over ten years of experience. He has provided counsel to numerous international clients engaged in or seeking to enter the Egyptian market. His expertise spans a range of areas, including people management, compliance, corporate, labor, taxes and data privacy, legal writing, review, and advice, as well as commercial and corporate governance. Holds a Bachelor of Law (LLB) from Cairo University, where he specialized in civil, corporate, commercial, and labor law, in addition to a Bachelor of Business Administration (BBA) from the same institution.',
-    },
+    // {
+    //     name: 'Ashraf El Masry',
+    //     role: 'CDO',
+    //     image: '/assets/images/Ashraf.png',
+    //     bio: 'Development officer With over 18 years of extensive experience in real estate development, has been a driving force behind some of the most significant projects in the industry. Holding an MBA in Strategic Management, Ashraf brings a unique blend of strategic vision, leadership, and operational excellence to NUD.',
+    // },
     {
         name: 'Waleed El Nady',
         role: 'CFO',

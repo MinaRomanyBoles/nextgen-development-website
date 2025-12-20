@@ -42,8 +42,7 @@ const About = () => {
                                 <span className="section-label">{t(language, 'about.storyLabel')}</span>
                                 <h2>{t(language, 'about.storyTitle')}</h2>
                                 <p>{t(language, 'about.storyP1')}</p>
-                                <p>{t(language, 'about.storyP2')}</p>
-                                <p>{t(language, 'about.storyP3')}</p>
+
                             </div>
                         </AnimatedSection>
                     </div>
