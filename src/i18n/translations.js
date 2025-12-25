@@ -112,7 +112,13 @@ export const translations = {
             service3Desc: 'Leverage our deep market knowledge and expertise. We provide comprehensive real estate investment consulting to help you make informed decisions.',
 
             service4Title: 'Property Management',
-            service4Desc: 'Our dedicated property management team ensures your investment is well-maintained and generates optimal returns.',
+            service4Desc: 'Professional management of projects to ensure timely delivery, cost control, and high-quality execution from start to finish.',
+
+            service5Title: 'Engineering and Financial Studies',
+            service5Desc: 'Comprehensive technical and financial analyses to evaluate feasibility, optimize costs, and support informed investment decisions.',
+
+            service6Title: 'Hotel and Tourism Development',
+            service6Desc: 'End-to-end development solutions for hotel and tourism projects, focused on sustainability, profitability, and market success.',
 
             processLabel: 'Our Process',
             processTitle: 'How We Work',
@@ -135,8 +141,10 @@ export const translations = {
             getInTouch: 'Get In Touch',
             intro: 'Have a question or want to discuss a project? Fill out the form or reach us through any of the channels below.',
 
-            address: 'Address',
-            addressValue: 'Property No. 11 - Sixth Tourist Area - Distinguished Neighborhood - 6th of October - Giza Governorate',
+            headquartersLabel: 'Administrative Headquarters',
+            headquartersAddress: 'Property No. 11 - Sixth Tourist Area - Distinguished Neighborhood - 6th of October - Giza Governorate',
+            salesOfficeLabel: 'Sales Office',
+            salesOfficeAddress: 'Arkan Plaza, Building 4 (Old), 4th Floor, Office 428',
             email: 'Email',
             emailValue: 'nextgenurban@Nextgen-eg.com',
             phone: 'Phone',
@@ -363,7 +371,13 @@ export const translations = {
             service3Desc: 'استفد من معرفتنا العميقة بالسوق وخبرتنا. نقدم استشارات شاملة للاستثمار العقاري لمساعدتك على اتخاذ قرارات مستنيرة.',
 
             service4Title: 'إدارة العقارات',
-            service4Desc: 'فريقنا المتفاني لإدارة الممتلكات يضمن صيانة استثمارك بشكل جيد وتحقيق عوائد مثلى.',
+            service4Desc: 'إدارة احترافية للممتلكات تضمن التشغيل الكفء، ضبط التكاليف، والحفاظ على أعلى مستويات الجودة.',
+
+            service5Title: 'الدراسات الهندسية والمالية',
+            service5Desc: 'تحليلات هندسية ومالية متكاملة لتقييم الجدوى، تحسين التكاليف، ودعم قرارات الاستثمار بثقة.',
+
+            service6Title: 'تطوير الفنادق والمشاريع السياحية',
+            service6Desc: 'حلول متكاملة لتطوير المشروعات الفندقية والسياحية، مع التركيز على الاستدامة والربحية ونجاح المشروع.',
 
             processLabel: 'عمليتنا',
             processTitle: 'كيف نعمل',
@@ -386,8 +400,10 @@ export const translations = {
             getInTouch: 'تواصل معنا',
             intro: 'هل لديك سؤال أو تريد مناقشة مشروع؟ املأ النموذج أو تواصل معنا من خلال أي من القنوات أدناه.',
 
-            address: 'العنوان',
-            addressValue: 'العقار رقم 11 - السياحية السادسة - الحي المتميز - 6 اكتوبر - محافظة الجيزة',
+            headquartersLabel: 'المقر الإداري',
+            headquartersAddress: 'العقار رقم 11 - السياحية السادسة - الحي المتميز - 6 أكتوبر - محافظة الجيزة',
+            salesOfficeLabel: 'مكتب المبيعات',
+            salesOfficeAddress: 'أركان بلازا مبنى 4 القديم - الدور الرابع - مكتب 428',
             email: 'البريد الإلكتروني',
             emailValue: 'nextgenurban@Nextgen-eg.com',
             phone: 'الهاتف',

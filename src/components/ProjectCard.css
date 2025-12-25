@@ -115,3 +115,44 @@
 .project-location svg {
     color: var(--color-accent-primary);
 }
+
+/* Coming Soon Badge */
+.coming-soon-badge {
+    display: inline-block;
+    padding: var(--spacing-xs) var(--spacing-md);
+    background: linear-gradient(135deg, #c9a227 0%, #d4af37 50%, #f0d65b 100%);
+    color: var(--color-secondary-dark);
+    font-size: var(--text-xs);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    border-radius: var(--radius-md);
+    margin-top: var(--spacing-sm);
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0%, 100% {
+        box-shadow: 0 0 0 0 rgba(212, 175, 55, 0.4);
+    }
+    50% {
+        box-shadow: 0 0 0 10px rgba(212, 175, 55, 0);
+    }
+}
+
+.project-card.coming-soon {
+    position: relative;
+}
+
+.project-card.coming-soon::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: 2px solid var(--color-accent-primary);
+    border-radius: var(--radius-xl);
+    pointer-events: none;
+    z-index: 1;
+}

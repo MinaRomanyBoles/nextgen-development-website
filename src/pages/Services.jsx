@@ -27,6 +27,17 @@ const Services = () => {
             descKey: 'service4Desc',
             icon: '🔧',
         },
+        {
+            titleKey: 'service5Title',
+            descKey: 'service5Desc',
+            icon: '📐',
+        },
+        {
+            titleKey: 'service6Title',
+            descKey: 'service6Desc',
+            icon: '🏨',
+        },
+
     ];
 
     const process = [

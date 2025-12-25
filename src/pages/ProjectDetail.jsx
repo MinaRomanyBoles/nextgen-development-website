@@ -1,10 +1,20 @@
 import { useParams, Link } from 'react-router-dom';
 import AnimatedSection from '../components/AnimatedSection';
+import { useLanguage } from '../context/LanguageContext';
 import { projects } from '../data/projects';
 import './ProjectDetail.css';
 
+// Helper function to get text value (supports both string and bilingual object)
+const getText = (value, language) => {
+    if (typeof value === 'object' && value !== null) {
+        return value[language] || value.en || '';
+    }
+    return value || '';
+};
+
 const ProjectDetail = () => {
     const { id } = useParams();
+    const { language } = useLanguage();
 
     const project = projects.find(p => p.id === parseInt(id));
 
@@ -12,12 +22,19 @@ const ProjectDetail = () => {
         return (
             <div className="project-detail-page">
                 <div className="container" style={{ padding: '100px 0', textAlign: 'center' }}>
-                    <h1>Project Not Found</h1>
-                    <Link to="/projects" className="btn btn-primary">Back to Projects</Link>
+                    <h1>{language === 'ar' ? 'المشروع غير موجود' : 'Project Not Found'}</h1>
+                    <Link to="/projects" className="btn btn-primary">
+                        {language === 'ar' ? 'العودة للمشاريع' : 'Back to Projects'}
+                    </Link>
                 </div>
             </div>
         );
     }
+
+    const title = getText(project.title, language);
+    const description = getText(project.description, language);
+    const longDescription = getText(project.longDescription, language);
+    const location = getText(project.location, language);
 
     const relatedProjects = projects
         .filter(p => p.id !== project.id && p.category === project.category)
@@ -31,7 +48,7 @@ const ProjectDetail = () => {
                     {project.image ? (
                         <img
                             src={project.image}
-                            alt={project.title}
+                            alt={title}
                             style={{ width: '100%', height: '100%', objectFit: 'cover' }}
                         />
                     ) : (
@@ -46,13 +63,18 @@ const ProjectDetail = () => {
                     <div className="container">
                         <AnimatedSection animation="fade-up">
                             <span className="project-category">{project.category}</span>
-                            <h1>{project.title}</h1>
+                            {project.comingSoon && (
+                                <span className="coming-soon-hero-badge">
+                                    {language === 'ar' ? 'قريباً' : 'Coming Soon'}
+                                </span>
+                            )}
+                            <h1>{title}</h1>
                             <div className="project-meta">
                                 <span className="project-location">
                                     <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24">
                                         <path d="M12 0c-4.198 0-8 3.403-8 7.602 0 4.198 3.469 9.21 8 16.398 4.531-7.188 8-12.2 8-16.398 0-4.199-3.801-7.602-8-7.602zm0 11c-1.657 0-3-1.343-3-3s1.343-3 3-3 3 1.343 3 3-1.343 3-3 3z" />
                                     </svg>
-                                    {project.location}
+                                    {location}
                                 </span>
                                 <span className="project-status">{project.status}</span>
                             </div>
@@ -67,8 +89,8 @@ const ProjectDetail = () => {
                     <div className="project-content">
                         <div className="project-main">
                             <AnimatedSection animation="fade-up">
-                                <h2>About This Project</h2>
-                                <p className="project-long-description">{project.longDescription}</p>
+                                <h2>{language === 'ar' ? 'عن هذا المشروع' : 'About This Project'}</h2>
+                                <p className="project-long-description">{longDescription}</p>
                             </AnimatedSection>
 
                             <AnimatedSection animation="fade-up">
@@ -170,8 +192,8 @@ const ProjectDetail = () => {
                                             )}
                                         </div>
                                         <div className="related-content">
-                                            <h4>{related.title}</h4>
-                                            <p>{related.location}</p>
+                                            <h4>{getText(related.title, language)}</h4>
+                                            <p>{getText(related.location, language)}</p>
                                         </div>
                                     </Link>
                                 </AnimatedSection>

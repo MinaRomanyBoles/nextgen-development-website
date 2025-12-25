@@ -52,11 +52,11 @@ const Team = () => {
                     </section>
                 </AnimatedSection>
 
-                <AnimatedSection animation="fade-up">
+                {/* <AnimatedSection animation="fade-up">
                     <div className="team-group-image-container">
                         <img src="/assets/images/team.jpeg" alt="Nextgen Team" className="team-group-image" />
                     </div>
-                </AnimatedSection>
+                </AnimatedSection> */}
 
                 <div className="team-grid">
                     {teamMembers.map((member, index) => (
@@ -74,7 +74,9 @@ const Team = () => {
                                 <div className="team-info">
                                     <h3>{member.name}</h3>
                                     <span className="team-role">{member.role}</span>
-                                    <p>{member.bio}</p>
+                                    <p style={{ whiteSpace: 'pre-line' }}>
+                                    {member.bio}
+                                    </p>
                                 </div>
                             </div>
                         </AnimatedSection>

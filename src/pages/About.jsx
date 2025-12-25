@@ -71,7 +71,7 @@ const About = () => {
                 </div>
             </section>
 
-            <section className="section timeline-section">
+            {/* <section className="section timeline-section">
                 <div className="container">
                     <AnimatedSection animation="fade-up">
                         <div className="section-header">
@@ -93,7 +93,7 @@ const About = () => {
                         ))}
                     </div>
                 </div>
-            </section>
+            </section> */}
         </div>
     );
 };
